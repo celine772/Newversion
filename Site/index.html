@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>[Your page title]</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="page">
+        <main class="story">
+            <h1>Free WIFI spots in Montreal</h1>
+            <p class="lede">[Montreal is one of the top tourist cities in Canada, recieving many visitors from all
+                around the world. This map was made to help make WIFI connection easier, so that ]</p>
+            <p><strong>This map is for</strong> Visitors to Montreal .</p>
+            <p><strong>What you can do here:</strong> You can find free WIFI spots throughout the city depending on
+                where you will be exploring. Each location also explains what it is (ex. museum, park, intersection).
+            </p>
+
+
+            <section>
+                <h2>Not in this iteration</h2>
+                <p>I wanted to include top tourist locations, however the file still needed a lot of editing, so I
+                    decided to leave it for my final presentation. </p>
+            </section>
+            <section>
+                <h2>Where this comes from</h2>
+                <ul>
+                    <li><a href="https://donnees.montreal.ca/en/dataset/couverture-du-reseau-wifi-mtlwifi">Bornes du
+                            réseau sans fil MTLWiFi
+                        </a>, Service de la planification stratégique, de la performance et de l'innovation,
+                        [licence], accessed 20/09/2026. I removed the columns that had inactive WIFI sites.</li>
+                </ul>
+            </section>
+        </main>
+        <div id="map"></div>
+    </div>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
